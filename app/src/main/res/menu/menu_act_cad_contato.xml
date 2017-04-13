@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActCadastroContato">
+
+    <item
+        android:title="@string/lbl_menu_salvar"
+        android:id="@+id/menu_item_salvar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+
+    <item
+        android:title="@string/lbl_menu_remover"
+        android:id="@+id/menu_item_remover"
+        android:orderInCategory="100"
+        android:visible="false"
+        />
+</menu>
